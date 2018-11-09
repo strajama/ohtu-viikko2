@@ -14,7 +14,7 @@ public class Pankki implements PankkiInterface {
     private KirjanpitoInterface kirjanpito;
 
     public Pankki(KirjanpitoInterface kirjanpito) {
-        kirjanpito = kirjanpito;
+        this.kirjanpito = kirjanpito;
     }
 
     @Override

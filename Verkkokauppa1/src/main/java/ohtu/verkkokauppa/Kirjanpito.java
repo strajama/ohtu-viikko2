@@ -17,7 +17,7 @@ public class Kirjanpito implements KirjanpitoInterface {
     private ArrayList<String> tapahtumat;
 
     public Kirjanpito() {
-        tapahtumat = new ArrayList<String>();
+        this.tapahtumat = new ArrayList<String>();
     }
     
     @Override

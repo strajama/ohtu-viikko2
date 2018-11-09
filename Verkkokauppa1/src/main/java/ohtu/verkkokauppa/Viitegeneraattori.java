@@ -15,7 +15,7 @@ public class Viitegeneraattori implements ViitegeneraattoriInterface {
     private int seuraava;
     
     public Viitegeneraattori(){
-        seuraava = 1;    
+        this.seuraava = 1;    
     }
     
     @Override

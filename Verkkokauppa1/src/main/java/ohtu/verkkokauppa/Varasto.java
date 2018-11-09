@@ -18,8 +18,8 @@ public class Varasto implements VarastoInterface {
     private HashMap<Tuote, Integer> saldot;  
     
     public Varasto(KirjanpitoInterface kirjanpito) {
-        kirjanpito = kirjanpito;
-        saldot = new HashMap<Tuote, Integer>();
+        this.kirjanpito = kirjanpito;
+        this.saldot = new HashMap<Tuote, Integer>();
         alustaTuotteet();
     }
             

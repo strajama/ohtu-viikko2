@@ -19,7 +19,7 @@ public class Kauppa {
         this.varasto = varasto;
         this.pankki = pankki;
         this.viitegeneraattori = viitegeneraattori;
-        kaupanTili = "33333-44455";
+        this.kaupanTili = "33333-44455";
     }
     
     
