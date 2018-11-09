@@ -1,10 +1,12 @@
-
 package ohtu.verkkokauppa;
+
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 
 public class Kirjanpito implements KirjanpitoInterface {
-/*    private static Kirjanpito instance;
+
+    /*    private static Kirjanpito instance;
     
     public static Kirjanpito getInstance() {
         if ( instance==null) {
@@ -13,13 +15,13 @@ public class Kirjanpito implements KirjanpitoInterface {
         
         return instance;
     }*/
-    
+
     private ArrayList<String> tapahtumat;
 
     public Kirjanpito() {
         this.tapahtumat = new ArrayList<String>();
     }
-    
+
     @Override
     public void lisaaTapahtuma(String tapahtuma) {
         tapahtumat.add(tapahtuma);
@@ -28,5 +30,5 @@ public class Kirjanpito implements KirjanpitoInterface {
     @Override
     public ArrayList<String> getTapahtumat() {
         return tapahtumat;
-    }       
+    }
 }

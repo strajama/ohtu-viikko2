@@ -1,8 +1,11 @@
 package ohtu.verkkokauppa;
 
+import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Pankki implements PankkiInterface {
 
-/*    private static Pankki instanssi;
+    /*    private static Pankki instanssi;
 
     public static Pankki getInstance() {
         if (instanssi == null) {
